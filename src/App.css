@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Ubuntu&display=swap');
+:root{
+    --red:#d01c28;
+    --gray:#2e2e2e;
+}
+
+  body{
+font-family: 'Poppins', sans-serif;
+/* font-family: 'Ubuntu', sans-serif; */
+}
+.container{
+  max-width: 1280px;
+  margin:0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height:72px;
+    align-items: center;
+    background-color: rgb(226, 217, 217) transparent;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    position: relative;
+    align-items: center;
+    
+}
+
+button{
+    all: unset;
+    padding: 6px 16px;
+    background: var(--red);
+    height: 32px;
+    color:black;
+    font-weight: 500;
+    border-radius: 32px;
+}
+.main{
+display: flex;
+align-items: center;
+height: calc(100vh - 122px);
+}
+
+.main-content{
+  display: flex;
+  flex-direction: column;
+  /* gap: 30px; */
+}
+.main h1{
+  font-weight: 800;
+  line-height: 102px;
+  font-size: 108px;
+  justify-content: auto;
+}
+
+.main p{
+  font-weight:600;
+ color: var(--gray);
+ max-width: 400px;
+}
+.main-btn{
+display: flex;
+gap: 40px;
+}
+.main-btn button{
+  font-size: 22px;
+}
+.secondary-btn{
+  background: transparent;
+  color: var(--gray);
+  border: 1px solid gray;
+}
+
+
+.shopping p{
+  font-size:14px;
+  margin-bottom:8px;
+}
+
+.brand-icons{
+display: flex;
+gap: 36px;
+}
+
+button:hover{
+background: rgb(181, 92, 92);
+}
+.secondary-btn button:hover{
+  background: rgb(75, 206, 65);
+}
+
+/* nav ul li:hover{
+
+} */
+
+.list:hover{
+  background: wheat;
+  border-radius: 5px;
+}
+.list{
+  margin: 0;
+}
